@@ -34,6 +34,18 @@ input {
     --secondry-color: #fff;
     --black: #000;
     --yellow: #FFAC37;
+
+    /* -------------------------------------------------------------------------- */
+    /*                                    font                                    */
+    /* -------------------------------------------------------------------------- */
+
+    --title:'JollyLodger';
+    --extrabold:'inter-extrabold';
+    --bold:'inter-bold';
+    --semibold:'inter-semibold';
+    --medium:'inter-medium';
+    --regular:'inter-regular';
+
 }
 
 /* -------------------------------------------------------------------------- */
