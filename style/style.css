@@ -105,6 +105,10 @@ header{
     background-size: cover;
     height: 100vh;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 /* -------------------------------------------------------------------------- */
