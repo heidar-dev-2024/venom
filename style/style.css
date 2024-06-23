@@ -103,6 +103,7 @@ li {
     text-align: center;
     border-radius: 1rem 3rem;
     mix-blend-mode: lighten;
+    cursor: pointer;
 }
 
 .section-btn h2::selection {
@@ -146,7 +147,7 @@ header {
     right: 0;
 }
 
-.venom-img-box img{
+.venom-img-box img {
     width: 100%;
 }
 
@@ -179,7 +180,7 @@ nav {
 }
 
 
-.icon-box{
+.icon-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -258,7 +259,7 @@ nav {
     justify-content: space-between;
 }
 
-.content > div{
+.content>div {
     display: flex;
     flex-direction: column;
     row-gap: 3rem;
@@ -280,7 +281,7 @@ nav {
     letter-spacing: 2rem;
 }
 
-.content__icon-box{
+.content__icon-box {
     border: .5rem solid var(--secondry-color);
     display: flex;
     justify-content: center;
@@ -296,7 +297,7 @@ nav {
 /* -------------------------------------------------------------------------- */
 /*                                 main style                                 */
 /* -------------------------------------------------------------------------- */
-.header__logos{
+.header__logos {
     background-color: var(--black);
     display: flex;
     justify-content: space-evenly;
