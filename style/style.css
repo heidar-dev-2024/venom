@@ -24,7 +24,9 @@ input {
     border: none;
     outline: none;
 }
-ul,li{
+
+ul,
+li {
     list-style-type: none;
 }
 
@@ -41,12 +43,12 @@ ul,li{
     /*                                    font                                    */
     /* -------------------------------------------------------------------------- */
 
-    --title:'JollyLodger';
-    --extrabold:'inter-extrabold';
-    --bold:'inter-bold';
-    --semibold:'inter-semibold';
-    --medium:'inter-medium';
-    --regular:'inter-regular';
+    --title: 'JollyLodger';
+    --extrabold: 'inter-extrabold';
+    --bold: 'inter-bold';
+    --semibold: 'inter-semibold';
+    --medium: 'inter-medium';
+    --regular: 'inter-regular';
 
 }
 
@@ -57,22 +59,27 @@ ul,li{
     font-family: 'JollyLodger';
     src: url('/font/JollyLodger-Regular.ttf');
 }
+
 @font-face {
     font-family: 'inter-extrabold';
     src: url('/font/Inter-ExtraBold.ttf');
 }
+
 @font-face {
     font-family: 'inter-bold';
     src: url('/font/Inter-Bold.ttf');
 }
+
 @font-face {
     font-family: 'inter-semibold';
     src: url('/font/Inter-SemiBold.ttf');
 }
+
 @font-face {
     font-family: 'inter-medium';
     src: url('/font/Inter-Medium.ttf');
 }
+
 @font-face {
     font-family: 'inter-regular';
     src: url('/font/Inter-Regular.ttf');
@@ -83,6 +90,25 @@ ul,li{
 /*                                  component                                 */
 /* -------------------------------------------------------------------------- */
 
+
+.section-btn h2 {
+    font-family: var(--extrabold);
+    font-size: 4rem;
+    background-color: white;
+    width: 30rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    border-radius: 2rem 5rem;
+    mix-blend-mode: lighten;
+}
+.section-btn h2::selection{
+    background-color: transparent;
+}
+
+
 /* -------------------------------------------------------------------------- */
 /*                                helper class                                */
 /* -------------------------------------------------------------------------- */
@@ -91,16 +117,17 @@ ul,li{
 /* -------------------------------------------------------------------------- */
 /*                                  container                                 */
 /* -------------------------------------------------------------------------- */
-.container{
+.container {
     max-width: 1300px;
     width: 100%;
     margin: 0 auto;
     position: relative;
 }
+
 /* -------------------------------------------------------------------------- */
 /*                                header style                                */
 /* -------------------------------------------------------------------------- */
-header{
+header {
     background: url(/imgs/image/header-bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -112,7 +139,7 @@ header{
 /*                               app navigation                               */
 /* -------------------------------------------------------------------------- */
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -123,13 +150,14 @@ nav{
 /*                                  app menu                                  */
 /* -------------------------------------------------------------------------- */
 
-.menu{
+.menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 50%;
 }
-.menu__item-link{
+
+.menu__item-link {
     color: var(--secondry-color);
     font-family: var(--medium);
     font-size: 2rem;
@@ -139,7 +167,7 @@ nav{
 /* -------------------------------------------------------------------------- */
 /*                            header wrapper style                            */
 /* -------------------------------------------------------------------------- */
-.header__wrapper{
+.header__wrapper {
     display: flex;
     justify-content: space-between;
 }
@@ -149,37 +177,41 @@ nav{
 /* -------------------------------------------------------------------------- */
 /*                                header trands                               */
 /* -------------------------------------------------------------------------- */
-.trands{
+.trands {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 20rem;
 }
 
-.trands__title{
+.trands__title {
     font-size: 1.9rem;
     word-spacing: 1rem;
     color: var(--secondry-color);
     font-family: var(--semibold);
 }
-.trands__imgs{
+
+.trands__imgs {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 89%;
 }
+
 .trands__imgs img:nth-child(1),
-.trands__imgs img:nth-child(2){
+.trands__imgs img:nth-child(2) {
     width: 11rem;
 }
-.trands__divider-line{
+
+.trands__divider-line {
     background-color: var(--secondry-color);
     width: 100%;
     height: .2rem;
     border-radius: 10rem;
     position: relative;
 }
-.trands__divider-line::before{
+
+.trands__divider-line::before {
     content: "";
     width: 30%;
     height: .7rem;
@@ -192,20 +224,23 @@ nav{
     left: 0;
     bottom: 0;
 }
+
 /* -------------------------------------------------------------------------- */
 /*                            header content style                            */
 /* -------------------------------------------------------------------------- */
-.content{
+.content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.content__title{
+
+.content__title {
     color: var(--secondry-color);
     font-size: 20rem;
     font-family: var(--title);
 }
-.content__text{
+
+.content__text {
     color: var(--secondry-color);
     font-size: 2.5rem;
     text-align: right;
