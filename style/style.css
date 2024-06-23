@@ -200,6 +200,12 @@ nav{
     flex-direction: column;
     justify-content: space-between;
 }
+.content__title{
+    color: var(--secondry-color);
+    font-size: 20rem;
+    font-family: var(--title);
+}
+
 
 
 
