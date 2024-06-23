@@ -101,7 +101,7 @@ li {
     justify-content: center;
     align-items: center;
     text-align: center;
-    border-radius: 2rem 5rem;
+    border-radius: 1rem 3rem;
     mix-blend-mode: lighten;
 }
 
@@ -197,6 +197,7 @@ nav {
     flex-direction: column;
     justify-content: space-between;
     height: 20rem;
+    margin-top: 60rem;
 }
 
 .trands__title {
@@ -249,6 +250,13 @@ nav {
     justify-content: space-between;
 }
 
+.content > div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    align-items: end;
+}
+
 .content__title {
     color: var(--secondry-color);
     font-size: 20rem;
@@ -261,6 +269,16 @@ nav {
     text-align: right;
     font-family: var(--extrabold);
     letter-spacing: 2rem;
+}
+
+.content__icon-box{
+    border: .5rem solid var(--secondry-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    align-self: end;
 }
 
 
