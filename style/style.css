@@ -133,7 +133,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 101vh;
     position: relative;
 }
 
@@ -176,6 +176,14 @@ nav {
     color: var(--secondry-color);
     font-family: var(--medium);
     font-size: 2rem;
+}
+
+
+.icon-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
 }
 
 
@@ -261,6 +269,7 @@ nav {
     color: var(--secondry-color);
     font-size: 20rem;
     font-family: var(--title);
+    height: 20rem;
 }
 
 .content__text {
@@ -287,6 +296,15 @@ nav {
 /* -------------------------------------------------------------------------- */
 /*                                 main style                                 */
 /* -------------------------------------------------------------------------- */
+.header__logos{
+    background-color: var(--black);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 100;
+    position: relative;
+    margin-top: -1rem;
+}
 
 
 /* -------------------------------------------------------------------------- */
