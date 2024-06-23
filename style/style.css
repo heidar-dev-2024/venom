@@ -24,7 +24,9 @@ input {
     border: none;
     outline: none;
 }
-
+ul,li{
+    list-style-type: none;
+}
 
 /* -------------------------------------------------------------------------- */
 /*                                 root style                                 */
@@ -109,6 +111,7 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+
 
 
 /* -------------------------------------------------------------------------- */
