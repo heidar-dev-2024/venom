@@ -205,7 +205,13 @@ nav{
     font-size: 20rem;
     font-family: var(--title);
 }
-
+.content__text{
+    color: var(--secondry-color);
+    font-size: 2.5rem;
+    text-align: right;
+    font-family: var(--extrabold);
+    letter-spacing: 2rem;
+}
 
 
 
