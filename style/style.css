@@ -97,7 +97,13 @@ input {
 /* -------------------------------------------------------------------------- */
 /*                                header style                                */
 /* -------------------------------------------------------------------------- */
-
+header{
+    background: url(/imgs/image/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
 
 /* -------------------------------------------------------------------------- */
 /*                                 main style                                 */
