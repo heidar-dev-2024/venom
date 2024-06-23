@@ -99,12 +99,13 @@ li {
     height: 10rem;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     text-align: center;
     border-radius: 2rem 5rem;
     mix-blend-mode: lighten;
 }
-.section-btn h2::selection{
+
+.section-btn h2::selection {
     background-color: transparent;
 }
 
@@ -133,6 +134,20 @@ header {
     background-position: center;
     background-size: cover;
     height: 100vh;
+    position: relative;
+}
+
+.venom-img-box {
+    position: absolute;
+    width: 80vw;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.venom-img-box img{
+    width: 100%;
 }
 
 /* -------------------------------------------------------------------------- */
