@@ -107,6 +107,11 @@ header{
     background-size: cover;
     height: 100vh;
 }
+
+/* -------------------------------------------------------------------------- */
+/*                               app navigation                               */
+/* -------------------------------------------------------------------------- */
+
 nav{
     display: flex;
     justify-content: space-between;
