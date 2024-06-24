@@ -90,6 +90,10 @@ li {
 /*                                  component                                 */
 /* -------------------------------------------------------------------------- */
 
+/* -------------------------------------------------------------------------- */
+/*                              section btn style                             */
+/* -------------------------------------------------------------------------- */
+
 
 .section-btn h2 {
     font-family: var(--extrabold);
@@ -140,6 +144,29 @@ li {
     left: 0;
     right: 0;
     margin: 0 auto;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                            section circle style                            */
+/* -------------------------------------------------------------------------- */
+
+.circles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 9rem;
+    margin-top: 15rem;
+}
+.circle{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    background-color: #777777;
+}
+.currecnt-circle{
+    background-color: var(--black);
+    transform: scale(1.7);
 }
 
 /* -------------------------------------------------------------------------- */
@@ -349,8 +376,69 @@ nav {
 }
 
 /* -------------------------------------------------------------------------- */
-/*                               women products                               */
+/*                               products style                               */
 /* -------------------------------------------------------------------------- */
+
+.products {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 41rem;
+}
+
+.product__background {
+    width: 50rem;
+    height: 18rem;
+    background-image: linear-gradient(60deg, var(--primery-color), #FF946A);
+    border-radius: 2rem;
+    position: relative;
+}
+
+.product-img__box img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+.product-img-shadow {
+    transform: scale(1);
+    top: -32rem;
+    z-index: -2;
+    opacity: 0.2;
+
+
+}
+
+.product__title,
+.product__price-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product__title{
+    margin: 4rem 0;
+}
+.product__title-text{
+    font-family: var(--regular);
+    font-size: 2.6rem;
+}
+.product__icon-box{
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.product__price-text{
+    font-size: 3rem;
+    font-family: var(--regular);
+}
+.product__price-link{
+    color: #777777;
+    font-size: 2rem;
+    font-family: var(--semibold);
+    text-decoration: underline;
+}
 
 
 
