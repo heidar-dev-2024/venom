@@ -95,7 +95,7 @@ li {
 /* -------------------------------------------------------------------------- */
 
 
-.section-btn h2 {
+.section-btn {
     font-family: var(--extrabold);
     font-size: 4rem;
     background-color: white;
@@ -110,9 +110,7 @@ li {
     cursor: pointer;
 }
 
-.section-btn h2::selection {
-    background-color: transparent;
-}
+
 
 /* -------------------------------------------------------------------------- */
 /*                             section title style                            */
@@ -157,6 +155,7 @@ li {
     margin: 0 auto;
     width: 9rem;
     margin-top: 15rem;
+    margin-bottom: 25rem;
 }
 .circle{
     width: 1rem;
@@ -441,6 +440,47 @@ nav {
     text-decoration: underline;
 }
 
+/* -------------------------------------------------------------------------- */
+/*                                banner style                                */
+/* -------------------------------------------------------------------------- */
+
+.banner-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(to left, #FFAA33,rgba(255,170,51,.30) );
+    height: 47rem;
+}
+.banner-wrapper--man{
+    background-image: linear-gradient(to right, #FF9447,rgba(255,166,84,.30) );
+
+}
+.banner__image-box{
+    align-self: end;
+    display: flex;
+}
+.banner__content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    row-gap: 7rem;
+}
+.banner__content-text-box{
+    text-align: center;
+    color: var(--secondry-color);
+    font-size: 6rem;
+    font-family: var(--medium);
+}
+.banner__content-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5rem;
+
+}
+.banner__content-icon-box img{
+    width: 150%;
+}
 
 
 /* -------------------------------------------------------------------------- */
