@@ -115,6 +115,33 @@ li {
 /* -------------------------------------------------------------------------- */
 
 
+.section-title {
+    padding: 10rem 0 3rem;
+    margin-bottom: 10rem;
+    position: relative;
+}
+
+.section-title__text {
+    text-align: center;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    font-family: var(--regular);
+}
+
+.section-title__text::before {
+    content: "";
+    position: absolute;
+    width: 7%;
+    height: .5rem;
+    border-radius: 100rem;
+    background-color: var(--black);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
 /* -------------------------------------------------------------------------- */
 /*                                helper class                                */
 /* -------------------------------------------------------------------------- */
@@ -231,7 +258,8 @@ nav {
 .trands__imgs img:nth-child(2) {
     width: 11rem;
 }
-.trands__imgs img:nth-child(3){
+
+.trands__imgs img:nth-child(3) {
     cursor: pointer;
 }
 
