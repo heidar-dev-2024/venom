@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <div class="venom-img-box">
             <img src="/imgs/image/venom-img.png" alt="">
         </div>
@@ -22,10 +22,10 @@
                     </a>
                 </div>
                 <ul class="menu">
-                    <li class="menu__item"><a href="#" class="menu__item-link">Home</a></li>
-                    <li class="menu__item"><a href="#" class="menu__item-link">Store’s </a></li>
-                    <li class="menu__item"><a href="#" class="menu__item-link">Our Collection</a></li>
-                    <li class="menu__item"><a href="#" class="menu__item-link">Contact</a></li>
+                    <li class="menu__item"><a href="#home" class="menu__item-link">Home</a></li>
+                    <li class="menu__item"><a href="#Store’s" class="menu__item-link">Store’s </a></li>
+                    <li class="menu__item"><a href="#collection" class="menu__item-link">Our Collection</a></li>
+                    <li class="menu__item"><a href="#contact" class="menu__item-link">Contact</a></li>
                 </ul>
                 <div class="icon-box">
                     <a href="#">
@@ -77,7 +77,7 @@
             <img src="imgs/logo/AJIO-logo.png">
 
         </div>
-        <section class="products-section">
+        <section class="products-section" id="Store’s">
             <div class="section-title">
                 <h3 class="section-title__text">woman Collection</h3>
             </div>
@@ -310,7 +310,7 @@
                 </div>
             </div>
         </section>
-        <section class="collection">
+        <section class="collection" id="collection">
             <div class="collection-wrapper">
                 <div class="collection-profile">
                     <img src="/imgs/image/colloction-profile-bg.png" alt="">
@@ -340,20 +340,28 @@
                     et dolore magna aliqua
                 </p>
                 <div class="footer-caption__socials">
+                    <a href="#">
                     <img src="/imgs/icon/facebook-icon.png" alt="">
-                    <img src="/imgs/icon/twitter-icon.png" alt="">
-                    <img src="imgs/icon/linkedin-icon.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="/imgs/icon/twitter-icon.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="imgs/icon/linkedin-icon.png" alt="">
+                    </a>
                 </div>
             </div>
             <ul class="footer-links">
                 <p class="footer-title">Quick Link’s</p>
-                <li class="footer-links__item"><a href="#" class="footer-links__item-link">Home</a></li>
-                <li class="footer-links__item"><a href="#" class="footer-links__item-link">Store’s </a></li>
-                <li class="footer-links__item"><a href="#" class="footer-links__item-link">Our Collection</a></li>
-                <li class="footer-links__item"><a href="#" class="footer-links__item-link">Contact</a></li>
-                <li class="footer-links__item"><a href="#" class="footer-links__item-link">Privacy</a></li>
+                <div class="links">
+                    <li class="footer-links__item"><a href="#home" class="footer-links__item-link">Home</a></li>
+                    <li class="footer-links__item"><a href="#Store’s" class="footer-links__item-link">Store’s </a></li>
+                    <li class="footer-links__item"><a href="#collection" class="footer-links__item-link">Our Collection</a></li>
+                    <li class="footer-links__item"><a href="#contacts" class="footer-links__item-link">Contact</a></li>
+                    <li class="footer-links__item"><a href="#"  class="footer-links__item-link">Privacy</a></li>
+                </div>
             </ul>
-            <div class="footer-signup-box">
+            <div class="footer-signup-box" id="contact">
                 <p class="footer-title">Signup for update's:</p>
                 <div class="input-box">
                     <input type="email" name="email" placeholder="Enter Email...">

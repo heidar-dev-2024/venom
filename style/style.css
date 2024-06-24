@@ -4,10 +4,13 @@
 html {
     box-sizing: border-box;
 }
-
+body{
+    font-family: var(--regular);
+}
 *,
 *::after,
 *::before {
+    scroll-behavior: smooth;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -23,6 +26,8 @@ button,
 input {
     border: none;
     outline: none;
+    background: none;
+    cursor: pointer;
 }
 
 ul,
@@ -128,7 +133,6 @@ li {
     font-size: 3.5rem;
     text-transform: uppercase;
     letter-spacing: 1rem;
-    font-family: var(--regular);
 }
 
 .section-title__text::before {
@@ -424,7 +428,6 @@ nav {
 }
 
 .product__title-text {
-    font-family: var(--regular);
     font-size: 2.6rem;
 }
 
@@ -436,7 +439,6 @@ nav {
 
 .product__price-text {
     font-size: 3rem;
-    font-family: var(--regular);
 }
 
 .product__price-link {
@@ -528,7 +530,6 @@ nav {
 
 .comment-box__text {
     color: var(--secondry-color);
-    font-family: var(--regular);
     font-size: 3rem;
 }
 
@@ -542,7 +543,6 @@ nav {
 .comment-box__nav-box span {
     color: var(--secondry-color);
     font-size: 1.7rem;
-    font-family: var(--regular);
 }
 
 .comment-box__profile img {
@@ -558,7 +558,7 @@ nav {
 /*                              collection style                              */
 /* -------------------------------------------------------------------------- */
 
-.collection{
+.collection {
     margin-bottom: 25rem;
 }
 
@@ -604,14 +604,13 @@ nav {
 .collection-conetent:nth-child(2) {
     color: var(--black);
     font-size: 15rem;
-    font-family: var(--regular);
     text-align: center;
     width: 70rem;
     line-height: 6.5rem;
     position: relative;
 }
 
-.collection-seprater::before{
+.collection-seprater::before {
     content: "";
     position: absolute;
     width: 20%;
@@ -633,9 +632,116 @@ nav {
 /* -------------------------------------------------------------------------- */
 /*                                footer style                                */
 /* -------------------------------------------------------------------------- */
-footer{
+footer {
     background-color: var(--yellow);
 }
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5rem 0 5rem;
+}
+
 /* -------------------------------------------------------------------------- */
 /*                            footer caption style                            */
 /* -------------------------------------------------------------------------- */
+
+.footer-caption {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.footer-caption__title-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.footer-caption-title-text {
+    color: var(--secondry-color);
+    font-size: 3.4rem;
+    font-family: var(--extrabold);
+}
+
+.footer-caption__text {
+    font-size: 2.3rem;
+    color: var(--secondry-color);
+    width: 50rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                               footer socials                               */
+/* -------------------------------------------------------------------------- */
+
+.footer-caption__socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 5rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                             footer quick links                             */
+/* -------------------------------------------------------------------------- */
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+
+
+.footer-title {
+    color: var(--secondry-color);
+    font-size: 2.7rem;
+    font-family: var(--semibold);
+    margin-bottom: 5rem;
+}
+
+.footer-links__item-link {
+    
+    font-size: 2rem;
+    color: var(--secondry-color);
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50rem;
+    height: 6rem;
+    border: .3rem var(--secondry-color) solid;
+    border-radius: 1rem;
+    padding: .2rem .2rem .2rem 2rem;
+}
+input[type='email']{
+    font-size: 2rem;
+    color: var(--secondry-color);
+    
+
+}
+input[type='email']::placeholder {
+    color: var(--secondry-color);
+    
+    font-size: 1.8rem;
+}
+button[type='submit']{
+    background-color: var(--secondry-color);
+    border-radius: .4rem;
+    width: 18rem;
+    height: 100%;
+    color: var(--yellow);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
