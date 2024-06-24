@@ -184,7 +184,7 @@ li {
 /*                                  container                                 */
 /* -------------------------------------------------------------------------- */
 .container {
-    max-width: 1300px;
+    max-width: 1360px;
     width: 100%;
     margin: 0 auto;
     position: relative;
@@ -389,10 +389,11 @@ nav {
     display: flex;
     justify-content: space-evenly;
     margin-top: 41rem;
+    flex-wrap: wrap;
 }
 
 .product__background {
-    width: 50rem;
+    width: 40rem;
     height: 18rem;
     background-image: linear-gradient(60deg, var(--primery-color), #FF946A);
     border-radius: 2rem;
@@ -405,11 +406,12 @@ nav {
     right: 0;
     bottom: 0;
     margin: 0 auto;
+    width: 90%;
 }
 
 .product-img-shadow {
     transform: scale(1);
-    top: -32rem;
+    top: -23rem;
     z-index: -2;
     opacity: 0.2;
 
@@ -510,7 +512,6 @@ nav {
     display: flex;
     justify-content: start;
     align-items: center;
-    width: 80%;
     padding: 7rem;
     border-radius: 7rem;
 }
@@ -744,4 +745,24 @@ button[type='submit']{
     color: var(--yellow);
     font-size: 2rem;
     text-transform: uppercase;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                            responsive app style                            */
+/* -------------------------------------------------------------------------- */
+
+@media (width < 1200px){
+    
+}
+@media (width < 992px){
+
+}
+@media (width < 768px){
+
+}
+@media (width < 576px){
+
+}
+@media (width < 360px){
+
 }
