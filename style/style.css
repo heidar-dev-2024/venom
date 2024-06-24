@@ -227,6 +227,9 @@ nav {
 .trands__imgs img:nth-child(2) {
     width: 11rem;
 }
+.trands__imgs img:nth-child(3){
+    cursor: pointer;
+}
 
 .trands__divider-line {
     background-color: var(--secondry-color);
@@ -289,6 +292,7 @@ nav {
     padding: 2rem;
     border-radius: 2rem;
     align-self: end;
+    cursor: pointer;
 }
 
 
