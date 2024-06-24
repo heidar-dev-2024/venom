@@ -486,6 +486,50 @@ nav {
 /*                                comment style                               */
 /* -------------------------------------------------------------------------- */
 
+.comment-box{
+    background-color: var(--black);
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+    padding: 7rem;
+    border-radius: 7rem;
+}
+.comment-box__content-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 9rem;    
+}
+.comment-box__content-title{
+    font-size: 5rem;
+    font-family: var(--semibold);
+    color: var(--secondry-color);
+}
+.comment-box__text{
+    color: var(--secondry-color);
+    font-family: var(--regular);
+    font-size: 3rem;
+}
+.comment-box__nav-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 18%;
+}
+.comment-box__nav-box span{
+    color: var(--secondry-color);
+    font-size: 1.7rem;
+    font-family: var(--regular);
+}
+.comment-box__profile img{
+    border-radius: 3rem;
+}
+.comment-box__profile{
+    margin-right: 7rem;
+}
+
 
 /* -------------------------------------------------------------------------- */
 /*                                footer style                                */
