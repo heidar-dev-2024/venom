@@ -3,6 +3,7 @@
 /* -------------------------------------------------------------------------- */
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     font-family: var(--regular);
@@ -11,7 +12,6 @@ body{
 *,
 *::after,
 *::before {
-    scroll-behavior: smooth;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
