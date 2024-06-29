@@ -924,7 +924,10 @@ button[type='submit'] {
     .footer-title {
         text-align: center;
     }
-
+    .footer__copyright{
+        text-align: center;
+        padding: 9rem 0;
+    }
 
 }
 
